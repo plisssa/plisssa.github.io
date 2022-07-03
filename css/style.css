@@ -41,7 +41,7 @@ a {
     font-family: 'Poppins', sans-serif;
     text-align: center; /* Выравнивание по центру */ 
     margin-top: 2em; /* Отступ сверху */
-    margin-bottom: 16em; /* Отступ снизу */
+    margin-bottom: 15em; /* Отступ снизу */
     color:rgb(225, 225, 225);
     padding: 2px;
     display: block;
