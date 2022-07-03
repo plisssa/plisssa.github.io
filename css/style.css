@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+  font-size: 60%;
+}
+.body {
+  font-size: 16px;
+  margin:0;
+  width: 100%;
+  height: 100%;
+   } 
+a { 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   }
+.zag {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center; /* Выравнивание по центру */ 
+    margin-top: 4em; /* Отступ сверху */
+    margin-bottom: 0em; /* Отступ снизу */
+     }
+.zag1 {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center; /* Выравнивание по центру */ 
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 1.5em; /* Отступ снизу */
+    color:rgb(225, 225, 225);
+    padding: 2px;
+    display: block;
+    line-height:18px;
+      }
+.zag2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center; /* Выравнивание по центру */ 
+    margin-top: 2em; /* Отступ сверху */
+    margin-bottom: 1.5em; /* Отступ снизу */
+    color:rgb(225, 225, 225);
+      }
+.zag3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center; /* Выравнивание по центру */ 
+    margin-top: 2em; /* Отступ сверху */
+    margin-bottom: 17em; /* Отступ снизу */
+    color:rgb(225, 225, 225);
+    padding: 2px;
+    display: block;
+    line-height:18px;
+      }
+.zag4 {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center; /* Выравнивание по центру */ 
+    margin-top: 6em; /* Отступ сверху */
+    margin-bottom: 1em; /* Отступ снизу */
+    color:rgb(225, 225, 225);
+      }   
+.zag5 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center; /* Выравнивание по центру */ 
+    margin-top: 4em; /* Отступ сверху */
+    margin-bottom: 4em; /* Отступ снизу */
+    color:rgb(225, 225, 225);
+      }    
+.zag6 {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center; /* Выравнивание по центру */ 
+    margin-top: 1em; /* Отступ сверху */
+    margin-bottom: 5em; /* Отступ снизу */
+    color:rgb(225, 225, 225);
+      } 
+.zag7 {
+    font-family: 'Merriweather', sans-serif;
+    text-align: center; /* Выравнивание по центру */ 
+    margin-top: 8em; /* Отступ сверху */
+    margin-bottom: 1em; /* Отступ снизу */
+    color:rgb(225, 225, 225);
+      }    
+.zag8 {
+  font-family: 'Merriweather', sans-serif;
+  text-align: center; /* Выравнивание по центру */ 
+  margin-top: 1em; /* Отступ сверху */
+  margin-bottom: 1em; /* Отступ снизу */
+  color:rgb(225, 225, 225);
+      }  
+                                      
+.line {
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 70px; /* Толщина линии */
+    margin: 20px 0;
+	  padding: 0;
+    background: linear-gradient(180deg, rgb(47, 47, 47) 1%, rgb(1, 192, 255) 99%);
+     }
+.line1 {
+    
+    border: none; /* Убираем границу */
+    background-color: rgb(0, 26, 255); /* Цвет линии */
+    color: rgb(0, 26, 255); /* Цвет линии для IE6-7 */
+    height: 10px; /* Толщина линии */
+    margin-top: 0.8em; /* Отступ сверху */
+    margin-bottom: 0.8em; /* Отступ снизу */   
+      }     
+.line2 {
+  border: none; /* Убираем границу */
+  background-color: rgb(88, 169, 255); /* Цвет линии */
+  color: rgb(206, 208, 222); /* Цвет линии для IE6-7 */
+  height: 5px; /* Толщина линии */
+  margin-top: 0.8em; /* Отступ сверху */
+  margin-bottom: 0.8em; /* Отступ снизу */ 
+  width: 100px;
+  text-align: center;
+  align: center;
+  position: relative;
+  width: 20%; margin: 0 40% 0 40%;
+      }
+.line3 {
+  z-index: 3;
+  border: none; /* Убираем границу */
+  background-color: rgb(0, 47, 255); /* Цвет линии */
+  color: rgb(206, 208, 222); /* Цвет линии для IE6-7 */
+  height: 5px; /* Толщина линии */
+  margin-top: 0.8em; /* Отступ сверху */
+  margin-bottom: 0.8em; /* Отступ снизу */ 
+  width: 100px;
+  text-align: center;
+  align: center;
+  position: relative;
+  width: 20%; margin: 0 40% 0 40%;
+}     
+.cool_img {
+    border-radius: 100%;
+    border: 8px  solid #00c7e1;
+    z-index: 1; 
+    margin-top: 0.1em; /* Отступ сверху */
+    box-shadow: 0 0 19px rgb(255, 255, 255);
+    }
+
+.fig {
+    text-align: center; /* Выравнивание по центру */ 
+    } 
+
+.about1 {
+margin: 1em; 
+display: flex;
+flex-flow: row nowrap;
+justify-content:space-between;
+}
+.SKILLS {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+    margin-right: 66px; /* Отступ справа */
+    margin-left: 66px; /* Отступ слева */
+    cursor: pointer;
+   }
+.SKILLS:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; right: 0; bottom: -36px; /* Положение подсказки */
+    color: rgb(255, 255, 255); /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 16px; /* Размер текста подсказки */
+    padding: 10px 10px; /* Поля */
+    
+   }
+.p {
+  position: relative;
+  color: #fff;
+  bottom: 0;
+  padding: 2rem;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  padding: 20px 20px 25px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(196, 196, 196);
+  padding: 22px 26px;
+}
+
+
+p.dline {
+    line-height: 1;
+   }
+P {
+    line-height: 0.2em;
+   }
+
+
+.ceti img {
+    background: rgb(41, 41, 41); /* Цвет фона */
+    text-align: center; /* Выравнивание по центру */
+    position: relative; /* Относительное позиционирование */
+    margin-right: 66px; /* Отступ справа */
+    margin-left: 66px; /* Отступ слева */
+   }
+  
+.desc {
+    padding: 15px;
+  } 
+
+.contact__wrapper {
+  width: 753px;
+  margin: 0 auto;
+  margin-top: 3em; /* Отступ сверху */
+  margin-bottom: 3em; /* Отступ снизу */
+  color: #989797;
+}  
+input {
+  width: 360px;
+  height: 40px;
+  font-size:  20px;
+  margin-bottom: 30px;
+  margin-top: 1em; /* Отступ сверху */
+  margin-bottom: 2em; /* Отступ снизу */
+  
+}
+.red {
+  color: rgb(255, 75, 75);
+}
+.hi {
+  margin-top: 1em; /* Отступ сверху */
+  margin-bottom: 1em; /* Отступ снизу */ 
+}
+.form__inputs {
+  display: flex;
+}
+textarea {
+   width: 100%;
+   height: 150px;
+}
+input, textarea {
+  border: 1px solid  rgb(201, 201, 201);
+  
+}
+input:first-of-type {
+  margin-right: 28px;
+}
+
+.button__block {
+  display:flex;
+  justify-content: flex-end;
+}
+
+input[type=submit] {
+  width: 165px;
+  height: 40px;
+  background:#0062ff;
+}
+ form p {
+  text-align: left;
+ } 
+ .list {
+  display: block;
+  width: 100%;
+  height: 50px;
+  left: 00; top: 0; right: 0;
+  padding: 0 30px;
+  list-style-type:lower-greek;
+  overflow:auto;
+  background-color: rgb(41, 41, 41);
+  position: fixed;
+  z-index: 3;
+  
+}
+
+.list > a {
+  display: inline-block;
+  height: 40px;
+  line-height: 30px;
+  color: #fff;
+  text-decoration: none !important;
+  margin-top: 10px; /* Отступ сверху */
+  margin-bottom: 1em; /* Отступ снизу */
+}
+
+.list > a:not(:last-child) {
+  margin-right: 15px;
+}
+
+.list > a:hover {
+  color: rgb(85, 221, 255);
+}
+A {
+  color: rgb(32, 32, 32); /* Цвет ссылок */
+ }
+ A:visited {
+  color: #cecece; /* Цвет посещенных ссылок */
+ }
+ A:active {
+  color: #ffff00; /* Цвет активных ссылок */
+ }
+ .card-img {
+  display: block;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 5rem;
+}
+
+.card-header {
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+}
+
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #d8e0fd;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+
+.card-btn span {
+  margin-left: 1rem;
+  transition: 0.4s;
+}
+
+.card-btn:hover, .card-btn:active {
+  background-color: #c2cffc;
+}
+
+.card-btn:hover span, .card-btn:active span {
+  margin-left: 1.5rem;
+}
+
+(max-width: 10em) {
+
+}
+.grid {
+  display: grid;
+  width: 100em;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
+}
+
+.grid-item {
+  background-color: #fff;
+  border-radius: 0.4rem;
+  overflow: hidden;
+  box-shadow: 0 3rem 6rem rgba(250, 250, 250, 0.1);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.grid-item:hover {
+  transform: translateY(-3%);
+  box-shadow: 0 4rem 8rem rgba(255, 255, 255, 0.5);
+} 
+.b1 {
+  background-color: rgb(32, 32, 32);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
