@@ -97,6 +97,14 @@ input[type=submit] {
   color: #0d0d0d;
   margin-bottom: 1.5rem;
   }
+.ceti img {
+  background: rgb(41, 41, 41); /* Цвет фона */
+  text-align: center; /* Выравнивание по центру */
+  position: relative; /* Относительное позиционирование */
+  margin-right: 66px; /* Отступ справа */
+  margin-left: 66px; /* Отступ слева */
+  margin-bottom: 1em; /* Отступ снизу */
+ }
   }
 @media screen and (min-width:240px) and (max-width:680px) {
   html {
@@ -152,14 +160,6 @@ input[type=submit] {
   cursor: pointer;
   margin-bottom: 3em; /* Отступ снизу */
  }
- .ceti img {
-  background: rgb(41, 41, 41); /* Цвет фона */
-  text-align: center; /* Выравнивание по центру */
-  position: relative; /* Относительное позиционирование */
-  margin-right: 66px; /* Отступ справа */
-  margin-left: 66px; /* Отступ слева */
-  margin-bottom: 1em; /* Отступ снизу */
- }
  .card-text {
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
@@ -187,6 +187,14 @@ input[type=submit] {
   color: #0d0d0d;
   margin-bottom: 1.5rem;
 }
+.ceti img {
+  background: rgb(41, 41, 41); /* Цвет фона */
+  text-align: center; /* Выравнивание по центру */
+  position: relative; /* Относительное позиционирование */
+  margin-right: 6px; /* Отступ справа */
+  margin-left: 6px; /* Отступ слева */
+  margin-bottom: 1em; /* Отступ снизу */
+ }
   }
 .zag {
     font-family: 'Merriweather', sans-serif;
