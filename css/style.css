@@ -191,8 +191,8 @@ input[type=submit] {
   background: rgb(41, 41, 41); /* Цвет фона */
   text-align: center; /* Выравнивание по центру */
   position: relative; /* Относительное позиционирование */
-  margin-right: 6px; /* Отступ справа */
-  margin-left: 6px; /* Отступ слева */
+  margin-right: 3px; /* Отступ справа */
+  margin-left: 3px; /* Отступ слева */
   margin-bottom: 1em; /* Отступ снизу */
  }
   }
