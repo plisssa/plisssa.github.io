@@ -14,6 +14,78 @@ html {
 a { 
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
    }
+
+
+/* Для больших устройств (ноуты, пк) */
+@media (min-width: 760px) {
+  .about1 {
+    margin: 1em; 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    }
+    input {
+      width: 360px;
+      height: 40px;
+      font-size:  20px;
+      margin-bottom: 30px;
+      margin-top: 1em; /* Отступ сверху */
+      margin-bottom: 2em; /* Отступ снизу */
+      
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+   }
+   input[type=submit] {
+    width: 165px;
+    height: 40px;
+    background:#0062ff;
+  }
+  .contact__wrapper {
+    width: 753px;
+    margin: 0 auto;
+    margin-top: 3em; /* Отступ сверху */
+    margin-bottom: 3em; /* Отступ снизу */
+    color: #989797;
+  } 
+  }
+  @media screen and (min-width:240px) and (max-width:680px) {
+
+  .about1 {
+    width: 100%;
+    margin: 70px; 
+    text-align: center; /* Выравнивание по центру */
+  }
+  input {
+    width: 10em;
+    height: 15px;
+    font-size:  14px;
+    margin-bottom: 30px;
+    margin-top: 1em; /* Отступ сверху */
+    margin-bottom: 2em; /* Отступ снизу */
+    
+  }
+  textarea {
+    width: 30em;
+    height: 130px;
+    margin: 0 auto;
+    
+ }
+ input[type=submit] {
+  width: 12em;
+  height: 30px;
+  background:#0062ff;
+  margin: 0 auto;
+}
+.contact__wrapper {
+  width: 100px;
+  margin: 90px;
+  margin-top: 3em; /* Отступ сверху */
+  margin-bottom: 3em; /* Отступ снизу */
+  color: #989797;
+} 
+  }
 .zag {
     font-family: 'Merriweather', sans-serif;
     text-align: center; /* Выравнивание по центру */ 
@@ -140,12 +212,7 @@ a {
     text-align: center; /* Выравнивание по центру */ 
     } 
 
-.about1 {
-margin: 1em; 
-display: flex;
-flex-flow: row nowrap;
-justify-content:space-between;
-}
+
 .SKILLS {
     display: inline-block; /* Строчно-блочный элемент */
     position: relative; /* Относительное позиционирование */
@@ -210,22 +277,8 @@ P {
     padding: 15px;
   } 
 
-.contact__wrapper {
-  width: 753px;
-  margin: 0 auto;
-  margin-top: 3em; /* Отступ сверху */
-  margin-bottom: 3em; /* Отступ снизу */
-  color: #989797;
-}  
-input {
-  width: 360px;
-  height: 40px;
-  font-size:  20px;
-  margin-bottom: 30px;
-  margin-top: 1em; /* Отступ сверху */
-  margin-bottom: 2em; /* Отступ снизу */
-  
-}
+ 
+
 .red {
   color: rgb(255, 75, 75);
 }
@@ -236,10 +289,7 @@ input {
 .form__inputs {
   display: flex;
 }
-textarea {
-   width: 100%;
-   height: 150px;
-}
+
 input, textarea {
   border: 1px solid  rgb(201, 201, 201);
   
@@ -253,11 +303,7 @@ input:first-of-type {
   justify-content: flex-end;
 }
 
-input[type=submit] {
-  width: 165px;
-  height: 40px;
-  background:#0062ff;
-}
+
  form p {
   text-align: left;
  } 
@@ -355,9 +401,6 @@ A {
   margin-left: 1.5rem;
 }
 
-(max-width: 10em) {
-
-}
 .grid {
   display: grid;
   width: 100em;
