@@ -1,8 +1,7 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
+   margin: 0;
+  box-sizing: border-box;
 }
-
 .body {
   font-size: 16px;
   margin:0;
@@ -12,55 +11,101 @@
 a { 
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
    }
-
-
 /* Для больших устройств (ноуты, пк) */
 @media (min-width: 760px) {
-  .about1 {
-    margin: 1em; 
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content:space-between;
-    }
-	html {
+html {
   font-size: 60%;
-}
-    input {
-      width: 360px;
-      height: 40px;
-      font-size:  20px;
-      margin-bottom: 30px;
-      margin-top: 1em; /* Отступ сверху */
-      margin-bottom: 2em; /* Отступ снизу */
-      
+  }
+.about1 {
+  margin: 1em; 
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:space-between;
     }
-    textarea {
-      width: 100%;
-      height: 150px;
+input {
+  width: 360px;
+  height: 40px;
+  font-size:  20px;
+  margin-bottom: 30px;
+  margin-top: 1em; /* Отступ сверху */
+  margin-bottom: 2em; /* Отступ снизу */  
+    }
+textarea {
+  width: 100%;
+  height: 150px;
    }
-   input[type=submit] {
-    width: 165px;
-    height: 40px;
-    background:#0062ff;
+input[type=submit] {
+  width: 165px;
+  height: 40px;
+  background:#0062ff;
   }
-  .contact__wrapper {
-    width: 753px;
-    margin: 0 auto;
-    margin-top: 3em; /* Отступ сверху */
-    margin-bottom: 3em; /* Отступ снизу */
-    color: #989797;
+.contact__wrapper {
+  width: 753px;
+  margin: 0 auto;
+  margin-top: 3em; /* Отступ сверху */
+  margin-bottom: 3em; /* Отступ снизу */
+  color: #989797;
   } 
+.form__inputs {
+  display: flex;
   }
-  @media screen and (min-width:240px) and (max-width:680px) {
-
+.grid {
+  display: grid;
+  width: 100em;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
+  }
+.SKILLS {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+    margin-right: 66px; /* Отступ справа */
+    margin-left: 66px; /* Отступ слева */
+    cursor: pointer;
+   }
+.ceti img {
+    background: rgb(41, 41, 41); /* Цвет фона */
+    text-align: center; /* Выравнивание по центру */
+    position: relative; /* Относительное позиционирование */
+    margin-right: 66px; /* Отступ справа */
+    margin-left: 66px; /* Отступ слева */
+   }
+.card-text {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+  }
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #d8e0fd;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  }
+.card-header {
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+  }
+  }
+@media screen and (min-width:240px) and (max-width:680px) {
+  html {
+    font-size: 100%;
+    }
   .about1 {
-    width: 100%;
-    margin: 70px; 
+    margin: 0 auto; 
     text-align: center; /* Выравнивание по центру */
   }
-	  html {
-  font-size: 100%;
-}
   input {
     width: 10em;
     height: 15px;
@@ -73,9 +118,8 @@ a {
   textarea {
     width: 30em;
     height: 130px;
-    margin: 0 auto;
-    
- }
+    margin: 0 auto;  
+  }
  input[type=submit] {
   width: 12em;
   height: 30px;
@@ -89,6 +133,60 @@ a {
   margin-bottom: 3em; /* Отступ снизу */
   color: #989797;
 } 
+.form__inputs {
+  display: table-caption;
+}
+.grid {
+  display: grid;
+  width: 100em;
+  grid-gap: 6rem;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  align-items: start;
+  margin-top: 3em; /* Отступ сверху */
+}
+.SKILLS {
+  display: inline-block; /* Строчно-блочный элемент */
+  position: relative; /* Относительное позиционирование */
+  margin-right: 66px; /* Отступ справа */
+  margin-left: 66px; /* Отступ слева */
+  cursor: pointer;
+  margin-bottom: 3em; /* Отступ снизу */
+ }
+ .ceti img {
+  background: rgb(41, 41, 41); /* Цвет фона */
+  text-align: center; /* Выравнивание по центру */
+  position: relative; /* Относительное позиционирование */
+  margin-right: 66px; /* Отступ справа */
+  margin-left: 66px; /* Отступ слева */
+  margin-bottom: 1em; /* Отступ снизу */
+ }
+ .card-text {
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+  color: #3d3d3d;
+  margin-bottom: 2.5rem;
+}
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #3363ff;
+  background-color: #d8e0fd;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.2s;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+}
+.card-header {
+  font-size: 2.2rem;
+  font-weight: 100;
+  color: #0d0d0d;
+  margin-bottom: 1.5rem;
+}
   }
 .zag {
     font-family: 'Merriweather', sans-serif;
@@ -189,7 +287,7 @@ a {
   align: center;
   position: relative;
   width: 20%; margin: 0 40% 0 40%;
-      }
+            }
 .line3 {
   z-index: 3;
   border: none; /* Убираем границу */
@@ -215,8 +313,6 @@ a {
 .fig {
     text-align: center; /* Выравнивание по центру */ 
     } 
-
-
 .SKILLS {
     display: inline-block; /* Строчно-блочный элемент */
     position: relative; /* Относительное позиционирование */
@@ -233,7 +329,6 @@ a {
     font-family: Arial, sans-serif; /* Гарнитура шрифта */
     font-size: 16px; /* Размер текста подсказки */
     padding: 10px 10px; /* Поля */
-    
    }
 .p {
   position: relative;
@@ -259,29 +354,12 @@ li a:hover:not(.active) {
   background-color: rgb(196, 196, 196);
   padding: 22px 26px;
 }
-
-
 p.dline {
     line-height: 1;
    }
 P {
     line-height: 0.2em;
    }
-
-
-.ceti img {
-    background: rgb(41, 41, 41); /* Цвет фона */
-    text-align: center; /* Выравнивание по центру */
-    position: relative; /* Относительное позиционирование */
-    margin-right: 66px; /* Отступ справа */
-    margin-left: 66px; /* Отступ слева */
-   }
-  
-.desc {
-    padding: 15px;
-  } 
-
- 
 
 .red {
   color: rgb(255, 75, 75);
@@ -290,24 +368,16 @@ P {
   margin-top: 1em; /* Отступ сверху */
   margin-bottom: 1em; /* Отступ снизу */ 
 }
-.form__inputs {
-  display: flex;
-}
-
 input, textarea {
   border: 1px solid  rgb(201, 201, 201);
-  
 }
 input:first-of-type {
   margin-right: 28px;
 }
-
 .button__block {
   display:flex;
   justify-content: flex-end;
 }
-
-
  form p {
   text-align: left;
  } 
@@ -322,9 +392,7 @@ input:first-of-type {
   background-color: rgb(41, 41, 41);
   position: fixed;
   z-index: 3;
-  
 }
-
 .list > a {
   display: inline-block;
   height: 40px;
@@ -334,11 +402,9 @@ input:first-of-type {
   margin-top: 10px; /* Отступ сверху */
   margin-bottom: 1em; /* Отступ снизу */
 }
-
 .list > a:not(:last-child) {
   margin-right: 15px;
 }
-
 .list > a:hover {
   color: rgb(85, 221, 255);
 }
@@ -357,62 +423,19 @@ A {
   height: 20rem;
   object-fit: cover;
 }
-
 .card-content {
   padding: 5rem;
 }
-
-.card-header {
-  font-size: 2.5rem;
-  font-weight: 100;
-  color: #0d0d0d;
-  margin-bottom: 1.5rem;
-}
-
-.card-text {
-  font-size: 1.6rem;
-  letter-spacing: 0.1rem;
-  line-height: 1.7;
-  color: #3d3d3d;
-  margin-bottom: 2.5rem;
-}
-
-.card-btn {
-  display: block;
-  width: 100%;
-  padding: 1.5rem;
-  font-size: 2rem;
-  text-align: center;
-  color: #3363ff;
-  background-color: #d8e0fd;
-  border: none;
-  border-radius: 0.4rem;
-  transition: 0.2s;
-  cursor: pointer;
-  letter-spacing: 0.1rem;
-}
-
 .card-btn span {
   margin-left: 1rem;
   transition: 0.4s;
 }
-
 .card-btn:hover, .card-btn:active {
   background-color: #c2cffc;
 }
-
 .card-btn:hover span, .card-btn:active span {
   margin-left: 1.5rem;
 }
-
-.grid {
-  display: grid;
-  width: 100em;
-  grid-gap: 6rem;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  align-items: start;
-}
-
 .grid-item {
   background-color: #fff;
   border-radius: 0.4rem;
@@ -421,7 +444,6 @@ A {
   cursor: pointer;
   transition: 0.2s;
 }
-
 .grid-item:hover {
   transform: translateY(-3%);
   box-shadow: 0 4rem 8rem rgba(255, 255, 255, 0.5);
