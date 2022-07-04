@@ -194,6 +194,7 @@ input[type=submit] {
   margin-right: 3px; /* Отступ справа */
   margin-left: 3px; /* Отступ слева */
   margin-bottom: 1em; /* Отступ снизу */
+ display: inline-block;
  }
   }
 .zag {
