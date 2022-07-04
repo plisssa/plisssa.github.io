@@ -1,9 +1,6 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-}
-html {
-  font-size: 85%;
+  margin: 0;
+  box-sizing: border-box;
 }
 .body {
   font-size: 19px;
@@ -14,26 +11,45 @@ html {
 a { 
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
    }
+   /* Для больших устройств (ноуты, пк) */
+@media (min-width: 760px) {
+  html {
+    font-size: 85%;
+  }
+  .txt2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center; /* Выравнивание по центру */ 
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 5em; /* Отступ снизу */
+    color:rgb(35, 33, 33);
+    padding: 4px;
+    display: block;
+    line-height:18px;   
+    overflow: hidden;
+    margin: 1em auto;
+    width: 1300px;
+    font-size: 110%;
+          } 
+  }
+@media screen and (min-width:240px) and (max-width:680px) {
+  html {
+    font-size: 100%;
+    }
+  .txt2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center; /* Выравнивание по центру */ 
+    margin-top: 0.5em; /* Отступ сверху */
+    margin-bottom: 5em; /* Отступ снизу */
+    color:rgb(35, 33, 33);
+    padding: 4px;
+          } 
+  }
 .txt1 {
   font-family: 'Merriweather', sans-serif;
   text-align: center; /* Выравнивание по центру */ 
   margin-top: 1.5em; /* Отступ сверху */
   margin-bottom: 1em; /* Отступ снизу */
-     }   
-.txt2 {
-  font-family: 'Poppins', sans-serif;
-  text-align: center; /* Выравнивание по центру */ 
-  margin-top: 0.5em; /* Отступ сверху */
-  margin-bottom: 5em; /* Отступ снизу */
-  color:rgb(35, 33, 33);
-  padding: 4px;
-  display: block;
-  line-height:18px;   
-  overflow: hidden;
-  margin: 1em auto;
-  width: 1300px;
-  font-size: 110%;
-      } 
+     }    
 p {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
