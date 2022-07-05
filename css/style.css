@@ -23,7 +23,8 @@ html {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   margin-left: auto;
   margin-right: auto;
-  align-items: start;
+  align-items: center;
+	
     }
 input {
   width: 360px;
@@ -146,13 +147,10 @@ input[type=submit] {
   margin-bottom: 3em; /* Отступ снизу */
   color: #989797;
   text-align: center;
-  clear:both; 
-  text-align:left;
+  
 } 
 .form__inputs {
   display: table-caption;
-  clear:both; 
-  text-align:left;
 }
 .grid {
   display: grid;
