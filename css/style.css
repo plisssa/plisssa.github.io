@@ -114,7 +114,7 @@ input[type=submit] {
   .about1 {
     margin: 0 auto; 
     text-align: center; /* Выравнивание по центру */
-    max-width: 600px;
+    max-width: 500px;
   }
   input {
     width: 10em;
