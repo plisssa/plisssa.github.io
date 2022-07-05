@@ -126,6 +126,7 @@ input[type=submit] {
     margin-top: 1em; /* Отступ сверху */
     margin-bottom: 2em; /* Отступ снизу */
     text-align: center;
+
   }
   textarea {
     width: 30em;
@@ -145,11 +146,13 @@ input[type=submit] {
   margin-bottom: 3em; /* Отступ снизу */
   color: #989797;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  clear:both; 
+  text-align:left;
 } 
 .form__inputs {
   display: table-caption;
+  clear:both; 
+  text-align:left;
 }
 .grid {
   display: grid;
