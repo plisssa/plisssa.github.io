@@ -148,6 +148,8 @@ input[type=submit] {
 } 
 .form__inputs {
   display: table-caption;
+  margin-left: auto;
+  margin-right: auto;
 }
 .grid {
   display: grid;
