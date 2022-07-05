@@ -17,6 +17,7 @@ html {
   font-size: 60%;
   }
 .about1 {
+  margin: 2;
   display: grid;
   max-width: 100em;
   grid-gap: 12rem;
