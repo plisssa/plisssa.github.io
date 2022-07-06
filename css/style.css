@@ -17,15 +17,12 @@ html {
   font-size: 60%;
   }
 .about1 {
-  margin: 2;
   display: grid;
   max-width: 100em;
-  grid-gap: 12rem;
   grid-template-columns: repeat(3, 1fr);
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-	
     }
 input {
   width: 360px;
