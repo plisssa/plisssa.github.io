@@ -274,7 +274,7 @@ input[type=submit] {
 .s1212 {
   font-family: 'Merriweather', sans-serif;
   text-align: left;
-  margin-top: 1em; /* Отступ сверху */
+  margin-top: 4em; /* Отступ сверху */
   margin-bottom: 1em; /* Отступ снизу */
   margin-left: 5em;
   color:rgb(121, 117, 117);
@@ -283,8 +283,26 @@ input[type=submit] {
 .s12121 {
   font-family: 'Merriweather', sans-serif;
   text-align: left;
-  margin-top: 1em; /* Отступ сверху */
+  margin-top: 4em; /* Отступ сверху */
   margin-bottom: 1em; /* Отступ снизу */
+  margin-left: 1em;
+  color:rgb(255, 255, 255);
+  position: relative; /* Относительное позиционирование */
+}
+.ss1212 {
+  font-family: 'Merriweather', sans-serif;
+  text-align: left;
+  margin-top: 1em; /* Отступ сверху */
+  margin-bottom: 4em; /* Отступ снизу */
+  margin-left: 5em;
+  color:rgb(121, 117, 117);
+  position: relative; /* Относительное позиционирование */
+}
+.ss12121 {
+  font-family: 'Merriweather', sans-serif;
+  text-align: left;
+  margin-top: 1em; /* Отступ сверху */
+  margin-bottom: 4em; /* Отступ снизу */
   margin-left: 1em;
   color:rgb(255, 255, 255);
   position: relative; /* Относительное позиционирование */
