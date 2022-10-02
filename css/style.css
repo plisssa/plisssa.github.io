@@ -271,11 +271,23 @@ input[type=submit] {
   margin-bottom: 1em; /* Отступ снизу */
   color:rgb(225, 225, 225);
       } 
-.1212 {
+.s1212 {
   font-family: 'Merriweather', sans-serif;
+  text-align: left;
   margin-top: 1em; /* Отступ сверху */
   margin-bottom: 1em; /* Отступ снизу */
-  color:rgb(225, 225, 225);
+  margin-left: 5em;
+  color:rgb(121, 117, 117);
+  position: relative; /* Относительное позиционирование */
+}
+.s12121 {
+  font-family: 'Merriweather', sans-serif;
+  text-align: left;
+  margin-top: 1em; /* Отступ сверху */
+  margin-bottom: 1em; /* Отступ снизу */
+  margin-left: 1em;
+  color:rgb(255, 255, 255);
+  position: relative; /* Относительное позиционирование */
 }
                                       
 .line {
