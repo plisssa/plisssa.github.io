@@ -270,7 +270,13 @@ input[type=submit] {
   margin-top: 1em; /* Отступ сверху */
   margin-bottom: 1em; /* Отступ снизу */
   color:rgb(225, 225, 225);
-      }  
+      } 
+.1212 {
+  font-family: 'Merriweather', sans-serif;
+  margin-top: 1em; /* Отступ сверху */
+  margin-bottom: 1em; /* Отступ снизу */
+  color:rgb(225, 225, 225);
+}
                                       
 .line {
     border: none; /* Убираем границу */
