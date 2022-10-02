@@ -306,8 +306,8 @@ input[type=submit] {
   margin-left: 1em;
   color:rgb(255, 255, 255);
   position: relative; /* Относительное позиционирование */
-}
-                                      
+} 
+
 .line {
     border: none; /* Убираем границу */
     background-color: red; /* Цвет линии */
